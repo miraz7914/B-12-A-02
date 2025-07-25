@@ -1,0 +1,121 @@
+body{
+   background-color: #F5F8FF;
+
+}
+.header-aera{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap:590px ;
+   
+ 
+}
+nav li{
+    list-style: none;
+    display: inline;
+    width: 1140px;
+    margin-right: 71px;
+    left: 150px;
+    top: 30px;
+}
+
+nav li a{
+    text-decoration: none;
+    position: absolute;
+}
+
+
+.main-container{
+    width: 1140px;  
+    margin: 120px auto;
+}
+.hero{
+    display: grid;
+   gap: 0px;
+   grid-template-columns: repeat(2,1fr);
+   margin-bottom: 100px;
+}
+
+
+
+
+
+/* out-plants-section style  */
+
+.out-plants-section{
+    text-align: center;
+}
+.card-section{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+
+.subtitle{
+   font-weight: 400;
+   font-size: 22px;              
+    color: #00000080;
+}
+
+
+.span{
+    color: #E95A08;
+}
+.span-color{
+    color: #E95A08;
+     margin: 0 auto;
+}
+
+
+
+
+ .card{
+    width: 270px;
+    border: 2px; 
+    padding: 10px;
+ }
+.card h4{
+font-size: 1.25em;
+} 
+
+.card-container p{
+  color: rgb(17, 17, 17);
+  font-size: 22px;
+  font-weight: 700;
+}   
+.card button{
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background: #E95A08;
+    
+}
+
+.Plants-Lover-Section{
+    display: flex;
+    gap: 20px 30px;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+/* smallest device */
+@media screen and (max-width:576px){
+    .hero{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .card-section{
+    grid-template-columns: repeat(1,1fr);
+}
+
+
+}
