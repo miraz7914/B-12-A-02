@@ -71,7 +71,7 @@ nav li a{
 
 
 
- .card{
+.card{
     width: 270px;
     border: 2px; 
     padding: 10px;
@@ -102,6 +102,91 @@ font-size: 1.25em;
 
 
 
+.plant-title img{
+display: flex;
+margin: 0px 28px;
+
+
+}
+.plant-area{
+    text-align: center;
+    margin: 100px 0;
+}
+.img-style{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.img-let img{
+    margin-bottom: 18px;
+}
+
+
+
+.join-column{
+    
+    background-image: url(/assets/news-letter-bg.png);
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+   
+}
+.join-title{
+   color: rgb(255, 255, 255);
+   font-size: 50px;
+   font-weight: 700;
+   line-height: 68px;
+   align-items: center;
+}
+.join-column input[type="text"]{
+   width: 644px;
+   height: 50px;
+   gap: 10;
+   padding: 8px 20px 8px 20px;
+   align-items: center;
+
+}
+.btn-primary{
+   background-color: #E95A08;
+   color: rgb(255, 255, 255);
+   padding: 26px 50px;
+}
+
+
+.footer-area{
+    width: 1140px;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.website-logo a{
+   
+    text-decoration: none;
+    color: #6B7280;
+    
+}
+
+.footer-manu ul{
+   list-style: none;
+}
+.footer-manu ul li{
+    margin-bottom: 32px;
+}
+.footer-manu ul li a{
+    text-decoration: none;
+    color: #6B7280;
+    
+    
+}
+.social-icon img{
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
 
 
 
@@ -111,11 +196,19 @@ font-size: 1.25em;
 /* smallest device */
 @media screen and (max-width:576px){
     .hero{
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(2,1fr);
     }
-    .card-section{
+.card-section{
+    grid-template-columns: repeat(2,1fr);
+}
+
+.img-style{
     grid-template-columns: repeat(1,1fr);
 }
+.footer-area{
+    grid-template-columns: repeat(1,1fr);
+}
+
 
 
 }
