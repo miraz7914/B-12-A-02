@@ -100,7 +100,9 @@ font-size: 1.25em;
     flex-wrap: wrap;
 }
 
-
+.flower-plants{
+    display: flex;
+}
 
 .plant-title img{
 display: flex;
